@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+
+        // var names = prompt('enter names')
+
+        // var words = names.slice(0,1).toLocaleUpperCase()
+        // var words2 = names.slice(1).toLowerCase()
+        // var result = words +  words2
+        // console.log(result)
+
+
+        // let text = 'my name is usman khan'
+
+        // for(let i = 0 ; i < text.length ; i++){
+        //     console.log(text.slice(i,i+5) === 'usman');
+
+        // }
+
+
+        let text = 'humour, or randomised words which dont look even slightly believable.If you are going to use a passage of Lorem Ipsum, you need to be sure there  '
+
+        let user = prompt()
+
+        for(let i = 0 ; i < text.length ; i++){
+            if(text.slice(i,i + user.length)===user){
+                console.log('found');
+                
+            }else{
+                console.log("not found");
+                
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
